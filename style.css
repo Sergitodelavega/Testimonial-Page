@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+body {
+         font-family: 'Sora', sans-serif;
+         background-color: #FAFAF9;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+     }
+
+     .container {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 40px;
+         width: 80%;
+     }
+     .left-section {
+         max-width: 100%;
+     }
+     .left-section .icon {
+         background-color: #ffcc00;
+         border-radius: 50%;
+         width: 40px;
+         height: 40px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-bottom: 20px;
+     }
+     .left-section .icon i {
+         color: white;
+         font-size: 20px;
+     }
+     .left-section h1 {
+         font-size: 36px;
+         margin: 0;
+         color: #333;
+     }
+     .left-section p {
+         font-size: 20px;
+         color: #666;
+         line-height: 1.5;
+     }
+     .left-section ul {
+         list-style: none;
+         padding: 0;
+     }
+     .left-section ul li {
+         display: flex;
+         align-items: center;
+         font-size: 14px;
+         color: #333;
+         margin-top: 10px;
+     }
+     .left-section ul li i {
+         color: #4caf50;
+         margin-right: 10px;
+     }
+     .right-section {
+         display: grid;
+         grid-template-rows: auto auto;
+         gap: 20px;
+     }
+     .review-card {
+         background-color: white;
+         border-radius: 10px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+         padding: 30px 40px;
+         width: 60%;
+     }
+
+     .review-card.one {
+        margin-left: 200px;
+        margin-bottom: 30px;
+    }
+     .review-card .header {
+         display: flex;
+         align-items: center;
+         margin-bottom: 10px;
+     }
+     .review-card .header img {
+         width: 80px;
+         height: 30px;
+         margin-right: 10px;
+     }
+     .review-card .header .stars {
+         color: #ffcc00;
+         margin-left: auto;
+     }
+     .review-card .header .stars i {
+         margin-right: 2px;
+     }
+     .review-card .name {
+         font-weight: bold;
+         color: #333;
+         margin-bottom: 5px;
+     }
+     .review-card .text {
+         font-size: 16px;
+         color: #666;
+     }
